@@ -1,0 +1,149 @@
+body {
+    background-color: #fcebb8;
+    color: #221811; /*text color*/
+    font-family: Verdana, Arial, sans-serif;
+    background-image:url(background.gif);
+}
+
+header {
+    background-color: #d2b48c;
+    /*text-align: center;*/
+    height: 150px;
+    background-image: url(javajamlogo.jpg);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+h1 {
+    /*line-height:100%; line height*/
+    padding-top: 45px;
+    padding-left: 220px;
+    font-size: 3em;
+}
+
+nav {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-top: 10px;
+    float: left; /*to float the element on the left side of the container*/
+    width: 200px;
+    display: block;
+}
+
+footer {
+    background-color: #D2B48C;
+    font-size: .68em;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 10px;
+    border-top: 2px #221811;
+    display: block;
+}
+
+#wrapper {
+    width: 80%; /*the width of the content of an element*/
+    margin-right: auto; /*configures the space in the right margin of the elements*/
+    margin-left: auto;
+    background-color: #231814;
+    min-width:300px;
+    max-width:1200px;
+    box-shadow: 3px 3px 3px 3px #333333;
+}
+ nav a {
+    text-decoration: none;
+ }
+
+ nav a:link {
+    color: #FEF6C2;
+ }
+
+ nav a:visited {
+    color: #D2B48C;
+ }
+
+ nav a:hover {
+    color: #CC9933;
+ }
+
+ nav ul {
+    list-style-type: none; /*remove link marker ex  dot in list*/
+    padding-left: 0;
+ }
+
+ h4 {
+    background-color: #D2B48C;
+    font-size: 1.2em;
+    padding-left: .5em;
+    padding-bottom: .25em;
+    text-transform: uppercase;
+    border-bottom: 2px solid #231814;
+    padding-bottom: 0;
+    clear: left; /*often used to terminate or clear a float*/
+ }
+
+ main {
+    padding-left: 0em;
+    padding-right: 0em;
+    padding-bottom: 2em;
+    padding-top: 0em;
+    margin-left: 200px;
+    background-color: #FEF6C2;
+    display: block;
+ }
+
+ .details {
+    padding-left: 20%;
+    padding-right: 20%;
+    overflow: auto; /*often used to  clear a float although its intended purpose is to configure how content should display if it is too large for the area allocated. Auto = if needed, scrollbar are displayed to allow access to the remaining content*/
+ }
+
+ img {
+    padding-left: 10px;
+    padding-right: 10px;
+ }
+
+#heroroad {
+    background-image: url(heroroad.jpg);
+    background-size: 100% 100%; /*w h*/
+    height: 250px;
+}
+
+#heromugs {
+    background-image: url(heromugs.jpg);
+    background-size: 100% 100%;
+    height: 250px;
+}
+
+#heroguitar {
+    background-image: url(heroguitar.jpg);
+    background-size: 100% 100%;
+    height: 250px;
+}
+
+main h2, main h3, main h4, main p, main div, main ul, main dl{
+    padding-left: 3em;
+    padding-right: 2em;
+}
+
+.floatleft {
+    float: left;
+    padding-right: 2em;
+    padding-bottom: 2em;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    border-spacing: 0;
+    background-color: #FFFFCC;
+}
+
+td, th {
+    padding: 10px;
+}
+
+tr:nth-of-type(odd) {
+    background-color: #D2B48E;
+}
